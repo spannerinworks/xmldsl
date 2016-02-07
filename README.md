@@ -1,9 +1,11 @@
+# XmlDsl
+
 Small Java DSL for creating little bits of XML.
 
-DSL style blatantly stolen from java2html.
+DSL style blatantly stolen from j2html.
 
 Use like this:
-{code}
+```java
 import static com.spannerinworks.xmldsl.XmlDsl.*
 
 String xml = xmlDsl(
@@ -15,4 +17,4 @@ String xml = xmlDsl(
         )
 ).toXmlString();
 
-{code}
+```
